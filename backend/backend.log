@@ -1,0 +1,653 @@
+nohup: ignoring input
+INFO:     Will watch for changes in these directories: ['/home/mad/social-recommender/backend']
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+INFO:     Started reloader process [6460] using WatchFiles
+INFO:sentence_transformers.SentenceTransformer:Use pytorch device_name: cpu
+INFO:sentence_transformers.SentenceTransformer:Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+INFO:app.embeddings:Loaded embedding model: all-MiniLM-L6-v2
+INFO:app.recommender:Loaded FAISS index from faiss_index/index.bin
+INFO:app.recommender:Loaded metadata from faiss_index/metadata.pkl
+INFO:app.redis_cache:Connected to Redis
+INFO:     Started server process [6478]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     127.0.0.1:51754 - "GET /health HTTP/1.1" 200 OK
+WARNING:  WatchFiles detected changes in 'app/main.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [6478]
+INFO:sentence_transformers.SentenceTransformer:Use pytorch device_name: cpu
+INFO:sentence_transformers.SentenceTransformer:Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+INFO:app.embeddings:Loaded embedding model: all-MiniLM-L6-v2
+INFO:app.recommender:Loaded FAISS index from faiss_index/index.bin
+INFO:app.recommender:Loaded metadata from faiss_index/metadata.pkl
+INFO:app.redis_cache:Connected to Redis
+INFO:     Started server process [7294]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     127.0.0.1:58758 - "GET /feed/user_1765737765743?limit=50 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58762 - "GET /feed/user_1765737765743?limit=50 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58762 - "GET /posts/3/comments HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58758 - "GET /posts/9/comments HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58762 - "GET /posts/7/comments HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58758 - "GET /posts/8/comments HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58762 - "GET /posts/2/comments HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58758 - "GET /posts/1964d7f5-a177-4ba5-ad69-a854c6ff7f7d/comments HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58762 - "GET /posts/0c08ef82-be37-4972-8adc-36590631165c/comments HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58758 - "GET /posts/36aaf502-5de7-4894-937b-7eb56fee62fc/comments HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58762 - "GET /posts/10/comments HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58758 - "GET /posts/6/comments HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58762 - "GET /posts/eda071ed-6921-45e5-be52-4513fc50efbf/comments HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58758 - "GET /posts/917932be-488c-4922-973f-cd12b1fee812/comments HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58762 - "GET /posts/266d1168-6476-4964-a594-c7aa653f4b1a/comments HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58758 - "GET /posts/55e6eba4-8748-437f-ad3c-326f17472e3a/comments HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58762 - "GET /posts/57d81ea5-f92c-4038-859e-5a533bbb779c/comments HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58758 - "GET /posts/4af63b29-c412-4945-ab52-957b133aca59/comments HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58762 - "GET /posts/5/comments HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58758 - "GET /posts/4/comments HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58762 - "GET /posts/dcc9bbfc-9fb4-4e86-9079-e62165808f95/comments HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58758 - "GET /posts/1/comments HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58762 - "GET /posts/b245fea0-e341-48f1-a2be-6f96baed4f9c/comments HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58758 - "GET /posts/54d72552-c673-40b0-9bef-b8d4178a6403/comments HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58762 - "GET /posts/b14f1f0f-7dbc-40c1-ab98-6df13a9b8ff5/comments HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58758 - "GET /posts/a8212224-aa90-43c5-8409-8abc70001c10/comments HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58762 - "GET /posts/43ba74af-56c5-48e3-aafa-41557da75037/comments HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58758 - "GET /posts/829e675f-a953-43d6-9f33-993bc492219b/comments HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58762 - "GET /posts/dce74587-af67-4026-aff9-f851c6926ca2/comments HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58758 - "GET /posts/1d27b343-5485-4c4d-aea3-c8d56640d11b/comments HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58762 - "GET /posts/05ed46c6-0b72-49d0-a99a-894851b8a297/comments HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58758 - "GET /posts/6765c31f-3a87-4855-b90f-f3ea0e0c659c/comments HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58762 - "GET /posts/66e4dcf3-4e82-4e4b-b27a-6430b3ca9b48/comments HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58758 - "GET /posts/ce81bcbc-9258-4b01-9df4-4f7b923a2ffa/comments HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58762 - "GET /posts/9435ccf6-bcc4-46aa-98ed-5d91c5f18011/comments HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58758 - "GET /posts/d657200f-e0eb-4758-a11d-aa77aa31f465/comments HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58762 - "GET /posts/4f52e583-5ed8-457e-85c7-928c38410463/comments HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58758 - "GET /posts/3/comments HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58762 - "GET /posts/7/comments HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58758 - "GET /posts/9/comments HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58762 - "GET /posts/8/comments HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58758 - "GET /posts/2/comments HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58762 - "GET /posts/3/reactions?user_id=user_1765737765743 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58758 - "GET /posts/1964d7f5-a177-4ba5-ad69-a854c6ff7f7d/comments HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58762 - "GET /posts/9/reactions?user_id=user_1765737765743 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58758 - "GET /posts/0c08ef82-be37-4972-8adc-36590631165c/comments HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58762 - "GET /posts/7/reactions?user_id=user_1765737765743 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58758 - "GET /posts/8/reactions?user_id=user_1765737765743 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58762 - "GET /posts/36aaf502-5de7-4894-937b-7eb56fee62fc/comments HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58758 - "GET /posts/2/reactions?user_id=user_1765737765743 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58762 - "GET /posts/1964d7f5-a177-4ba5-ad69-a854c6ff7f7d/reactions?user_id=user_1765737765743 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58758 - "GET /posts/10/comments HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58762 - "GET /posts/0c08ef82-be37-4972-8adc-36590631165c/reactions?user_id=user_1765737765743 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58758 - "GET /posts/6/comments HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58762 - "GET /posts/36aaf502-5de7-4894-937b-7eb56fee62fc/reactions?user_id=user_1765737765743 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58758 - "GET /posts/eda071ed-6921-45e5-be52-4513fc50efbf/comments HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58762 - "GET /posts/10/reactions?user_id=user_1765737765743 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58758 - "GET /posts/6/reactions?user_id=user_1765737765743 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58762 - "GET /posts/917932be-488c-4922-973f-cd12b1fee812/comments HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58758 - "GET /posts/eda071ed-6921-45e5-be52-4513fc50efbf/reactions?user_id=user_1765737765743 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58762 - "GET /posts/266d1168-6476-4964-a594-c7aa653f4b1a/comments HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58758 - "GET /posts/55e6eba4-8748-437f-ad3c-326f17472e3a/comments HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58762 - "GET /posts/917932be-488c-4922-973f-cd12b1fee812/reactions?user_id=user_1765737765743 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58758 - "GET /posts/266d1168-6476-4964-a594-c7aa653f4b1a/reactions?user_id=user_1765737765743 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58762 - "GET /posts/57d81ea5-f92c-4038-859e-5a533bbb779c/comments HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58758 - "GET /posts/4af63b29-c412-4945-ab52-957b133aca59/comments HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58762 - "GET /posts/55e6eba4-8748-437f-ad3c-326f17472e3a/reactions?user_id=user_1765737765743 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58758 - "GET /posts/5/comments HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58762 - "GET /posts/57d81ea5-f92c-4038-859e-5a533bbb779c/reactions?user_id=user_1765737765743 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58758 - "GET /posts/4/comments HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58762 - "GET /posts/4af63b29-c412-4945-ab52-957b133aca59/reactions?user_id=user_1765737765743 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58758 - "GET /posts/dcc9bbfc-9fb4-4e86-9079-e62165808f95/comments HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58762 - "GET /posts/5/reactions?user_id=user_1765737765743 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58758 - "GET /posts/1/comments HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58762 - "GET /posts/4/reactions?user_id=user_1765737765743 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58758 - "GET /posts/b245fea0-e341-48f1-a2be-6f96baed4f9c/comments HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58762 - "GET /posts/dcc9bbfc-9fb4-4e86-9079-e62165808f95/reactions?user_id=user_1765737765743 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58758 - "GET /posts/1/reactions?user_id=user_1765737765743 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58762 - "GET /posts/54d72552-c673-40b0-9bef-b8d4178a6403/comments HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58758 - "GET /posts/b14f1f0f-7dbc-40c1-ab98-6df13a9b8ff5/comments HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58762 - "GET /posts/b245fea0-e341-48f1-a2be-6f96baed4f9c/reactions?user_id=user_1765737765743 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58758 - "GET /posts/a8212224-aa90-43c5-8409-8abc70001c10/comments HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58762 - "GET /posts/54d72552-c673-40b0-9bef-b8d4178a6403/reactions?user_id=user_1765737765743 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58758 - "GET /posts/43ba74af-56c5-48e3-aafa-41557da75037/comments HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58762 - "GET /posts/829e675f-a953-43d6-9f33-993bc492219b/comments HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58758 - "GET /posts/b14f1f0f-7dbc-40c1-ab98-6df13a9b8ff5/reactions?user_id=user_1765737765743 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58762 - "GET /posts/dce74587-af67-4026-aff9-f851c6926ca2/comments HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58758 - "GET /posts/a8212224-aa90-43c5-8409-8abc70001c10/reactions?user_id=user_1765737765743 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58762 - "GET /posts/43ba74af-56c5-48e3-aafa-41557da75037/reactions?user_id=user_1765737765743 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58758 - "GET /posts/1d27b343-5485-4c4d-aea3-c8d56640d11b/comments HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58762 - "GET /posts/829e675f-a953-43d6-9f33-993bc492219b/reactions?user_id=user_1765737765743 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58758 - "GET /posts/05ed46c6-0b72-49d0-a99a-894851b8a297/comments HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58762 - "GET /posts/dce74587-af67-4026-aff9-f851c6926ca2/reactions?user_id=user_1765737765743 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58758 - "GET /posts/6765c31f-3a87-4855-b90f-f3ea0e0c659c/comments HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58762 - "GET /posts/1d27b343-5485-4c4d-aea3-c8d56640d11b/reactions?user_id=user_1765737765743 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58758 - "GET /posts/66e4dcf3-4e82-4e4b-b27a-6430b3ca9b48/comments HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58762 - "GET /posts/05ed46c6-0b72-49d0-a99a-894851b8a297/reactions?user_id=user_1765737765743 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58758 - "GET /posts/6765c31f-3a87-4855-b90f-f3ea0e0c659c/reactions?user_id=user_1765737765743 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58762 - "GET /posts/66e4dcf3-4e82-4e4b-b27a-6430b3ca9b48/reactions?user_id=user_1765737765743 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58758 - "GET /posts/9435ccf6-bcc4-46aa-98ed-5d91c5f18011/reactions?user_id=user_1765737765743 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58762 - "GET /posts/4f52e583-5ed8-457e-85c7-928c38410463/comments HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58758 - "GET /posts/d657200f-e0eb-4758-a11d-aa77aa31f465/reactions?user_id=user_1765737765743 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58768 - "GET /posts/ce81bcbc-9258-4b01-9df4-4f7b923a2ffa/comments HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58762 - "GET /posts/4f52e583-5ed8-457e-85c7-928c38410463/reactions?user_id=user_1765737765743 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58758 - "GET /posts/3/reactions?user_id=user_1765737765743 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58768 - "GET /posts/9/reactions?user_id=user_1765737765743 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58784 - "GET /posts/9435ccf6-bcc4-46aa-98ed-5d91c5f18011/comments HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58762 - "GET /posts/7/reactions?user_id=user_1765737765743 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58796 - "GET /posts/ce81bcbc-9258-4b01-9df4-4f7b923a2ffa/reactions?user_id=user_1765737765743 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58784 - "GET /posts/8/reactions?user_id=user_1765737765743 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58768 - "GET /posts/2/reactions?user_id=user_1765737765743 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58758 - "GET /posts/1964d7f5-a177-4ba5-ad69-a854c6ff7f7d/reactions?user_id=user_1765737765743 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58804 - "GET /posts/d657200f-e0eb-4758-a11d-aa77aa31f465/comments HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58796 - "GET /posts/0c08ef82-be37-4972-8adc-36590631165c/reactions?user_id=user_1765737765743 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58762 - "GET /posts/36aaf502-5de7-4894-937b-7eb56fee62fc/reactions?user_id=user_1765737765743 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58784 - "GET /posts/eda071ed-6921-45e5-be52-4513fc50efbf/reactions?user_id=user_1765737765743 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58768 - "GET /posts/10/reactions?user_id=user_1765737765743 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58804 - "GET /posts/6/reactions?user_id=user_1765737765743 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58758 - "GET /posts/917932be-488c-4922-973f-cd12b1fee812/reactions?user_id=user_1765737765743 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58762 - "GET /posts/266d1168-6476-4964-a594-c7aa653f4b1a/reactions?user_id=user_1765737765743 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58796 - "GET /posts/55e6eba4-8748-437f-ad3c-326f17472e3a/reactions?user_id=user_1765737765743 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58758 - "GET /posts/4af63b29-c412-4945-ab52-957b133aca59/reactions?user_id=user_1765737765743 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58784 - "GET /posts/5/reactions?user_id=user_1765737765743 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58768 - "GET /posts/1/comments HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58804 - "GET /posts/57d81ea5-f92c-4038-859e-5a533bbb779c/reactions?user_id=user_1765737765743 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58796 - "GET /posts/4/reactions?user_id=user_1765737765743 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58762 - "GET /posts/dcc9bbfc-9fb4-4e86-9079-e62165808f95/reactions?user_id=user_1765737765743 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58784 - "GET /posts/1/reactions?user_id=user_1765737765743 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58768 - "GET /posts/b245fea0-e341-48f1-a2be-6f96baed4f9c/reactions?user_id=user_1765737765743 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58758 - "GET /posts/54d72552-c673-40b0-9bef-b8d4178a6403/reactions?user_id=user_1765737765743 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58804 - "GET /posts/b14f1f0f-7dbc-40c1-ab98-6df13a9b8ff5/reactions?user_id=user_1765737765743 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58762 - "GET /posts/a8212224-aa90-43c5-8409-8abc70001c10/reactions?user_id=user_1765737765743 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58796 - "GET /posts/43ba74af-56c5-48e3-aafa-41557da75037/reactions?user_id=user_1765737765743 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58784 - "GET /posts/829e675f-a953-43d6-9f33-993bc492219b/reactions?user_id=user_1765737765743 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58758 - "GET /posts/dce74587-af67-4026-aff9-f851c6926ca2/reactions?user_id=user_1765737765743 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58768 - "GET /posts/1d27b343-5485-4c4d-aea3-c8d56640d11b/reactions?user_id=user_1765737765743 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58804 - "GET /posts/05ed46c6-0b72-49d0-a99a-894851b8a297/reactions?user_id=user_1765737765743 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58762 - "GET /posts/6765c31f-3a87-4855-b90f-f3ea0e0c659c/reactions?user_id=user_1765737765743 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58796 - "GET /posts/66e4dcf3-4e82-4e4b-b27a-6430b3ca9b48/reactions?user_id=user_1765737765743 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58784 - "GET /posts/4f52e583-5ed8-457e-85c7-928c38410463/reactions?user_id=user_1765737765743 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58804 - "GET /posts/ce81bcbc-9258-4b01-9df4-4f7b923a2ffa/reactions?user_id=user_1765737765743 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58768 - "GET /posts/9435ccf6-bcc4-46aa-98ed-5d91c5f18011/reactions?user_id=user_1765737765743 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58758 - "GET /posts/d657200f-e0eb-4758-a11d-aa77aa31f465/reactions?user_id=user_1765737765743 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58784 - "GET /posts/1/comments HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58796 - "GET /posts/1/reactions?user_id=user_1765737765743 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58784 - "GET /posts/1/reactions?user_id=user_1765737765743 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58812 - "GET /media/05ed46c6-0b72-49d0-a99a-894851b8a297.jpg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58822 - "GET /media/6765c31f-3a87-4855-b90f-f3ea0e0c659c.jpg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58852 - "GET /media/ce81bcbc-9258-4b01-9df4-4f7b923a2ffa.jpg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58858 - "GET /media/d657200f-e0eb-4758-a11d-aa77aa31f465.jpg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58838 - "GET /media/66e4dcf3-4e82-4e4b-b27a-6430b3ca9b48.jpg HTTP/1.1" 200 OK
+ERROR:app.main:Failed to get user posts: 'FAISSRecommender' object has no attribute 'get_metadata'
+INFO:     127.0.0.1:58886 - "GET /user/user_1765737765743/posts HTTP/1.1" 500 Internal Server Error
+ERROR:app.main:Failed to get user posts: 'FAISSRecommender' object has no attribute 'get_metadata'
+INFO:     127.0.0.1:58886 - "GET /user/user_1765737765743/posts HTTP/1.1" 500 Internal Server Error
+INFO:     127.0.0.1:58886 - "GET /feed/user_1765737765743?limit=1000 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58886 - "GET /feed/user_1765737765743?limit=1000 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58894 - "GET /feed/user_1765737765743?limit=50 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58904 - "GET /feed/user_1765737765743?limit=50 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58904 - "GET /posts/3/comments HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58894 - "GET /posts/7/comments HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58908 - "GET /posts/9/comments HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58916 - "GET /posts/8/comments HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58894 - "GET /posts/1964d7f5-a177-4ba5-ad69-a854c6ff7f7d/comments HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58908 - "GET /posts/0c08ef82-be37-4972-8adc-36590631165c/comments HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58904 - "GET /posts/2/comments HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58916 - "GET /posts/36aaf502-5de7-4894-937b-7eb56fee62fc/comments HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58894 - "GET /posts/6/comments HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58908 - "GET /posts/10/comments HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58904 - "GET /posts/266d1168-6476-4964-a594-c7aa653f4b1a/comments HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58916 - "GET /posts/eda071ed-6921-45e5-be52-4513fc50efbf/comments HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58904 - "GET /posts/917932be-488c-4922-973f-cd12b1fee812/comments HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58894 - "GET /posts/55e6eba4-8748-437f-ad3c-326f17472e3a/comments HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58916 - "GET /posts/4/comments HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58908 - "GET /posts/5/comments HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58904 - "GET /posts/b14f1f0f-7dbc-40c1-ab98-6df13a9b8ff5/comments HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58894 - "GET /posts/a8212224-aa90-43c5-8409-8abc70001c10/comments HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58916 - "GET /posts/9435ccf6-bcc4-46aa-98ed-5d91c5f18011/comments HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58908 - "GET /posts/4f52e583-5ed8-457e-85c7-928c38410463/comments HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58904 - "GET /posts/57d81ea5-f92c-4038-859e-5a533bbb779c/comments HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58894 - "GET /posts/4af63b29-c412-4945-ab52-957b133aca59/comments HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58916 - "GET /posts/dcc9bbfc-9fb4-4e86-9079-e62165808f95/comments HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58908 - "GET /posts/1/comments HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58904 - "GET /posts/b245fea0-e341-48f1-a2be-6f96baed4f9c/comments HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58894 - "GET /posts/3/comments HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58916 - "GET /posts/54d72552-c673-40b0-9bef-b8d4178a6403/comments HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58908 - "GET /posts/43ba74af-56c5-48e3-aafa-41557da75037/comments HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58904 - "GET /posts/829e675f-a953-43d6-9f33-993bc492219b/comments HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58894 - "GET /posts/dce74587-af67-4026-aff9-f851c6926ca2/comments HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58916 - "GET /posts/1d27b343-5485-4c4d-aea3-c8d56640d11b/comments HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58908 - "GET /posts/05ed46c6-0b72-49d0-a99a-894851b8a297/comments HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58904 - "GET /posts/6765c31f-3a87-4855-b90f-f3ea0e0c659c/comments HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58894 - "GET /posts/66e4dcf3-4e82-4e4b-b27a-6430b3ca9b48/comments HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58916 - "GET /posts/ce81bcbc-9258-4b01-9df4-4f7b923a2ffa/comments HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58908 - "GET /posts/d657200f-e0eb-4758-a11d-aa77aa31f465/comments HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58904 - "GET /posts/7/comments HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58894 - "GET /posts/9/comments HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58916 - "GET /posts/3/reactions?user_id=user_1765737765743 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58904 - "GET /posts/7/reactions?user_id=user_1765737765743 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58908 - "GET /posts/9/reactions?user_id=user_1765737765743 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58894 - "GET /posts/8/comments HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58916 - "GET /posts/2/comments HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58908 - "GET /posts/1964d7f5-a177-4ba5-ad69-a854c6ff7f7d/comments HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58894 - "GET /posts/36aaf502-5de7-4894-937b-7eb56fee62fc/comments HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58904 - "GET /posts/0c08ef82-be37-4972-8adc-36590631165c/comments HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58916 - "GET /posts/8/reactions?user_id=user_1765737765743 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58894 - "GET /posts/1964d7f5-a177-4ba5-ad69-a854c6ff7f7d/reactions?user_id=user_1765737765743 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58904 - "GET /posts/0c08ef82-be37-4972-8adc-36590631165c/reactions?user_id=user_1765737765743 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58916 - "GET /posts/266d1168-6476-4964-a594-c7aa653f4b1a/comments HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58908 - "GET /posts/2/reactions?user_id=user_1765737765743 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58916 - "GET /posts/36aaf502-5de7-4894-937b-7eb56fee62fc/reactions?user_id=user_1765737765743 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58894 - "GET /posts/6/comments HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58904 - "GET /posts/10/comments HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58908 - "GET /posts/eda071ed-6921-45e5-be52-4513fc50efbf/comments HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58916 - "GET /posts/917932be-488c-4922-973f-cd12b1fee812/comments HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58904 - "GET /posts/55e6eba4-8748-437f-ad3c-326f17472e3a/comments HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58894 - "GET /posts/266d1168-6476-4964-a594-c7aa653f4b1a/reactions?user_id=user_1765737765743 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58908 - "GET /posts/4/comments HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58916 - "GET /posts/6/reactions?user_id=user_1765737765743 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58904 - "GET /posts/5/comments HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58894 - "GET /posts/b14f1f0f-7dbc-40c1-ab98-6df13a9b8ff5/comments HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58908 - "GET /posts/10/reactions?user_id=user_1765737765743 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58916 - "GET /posts/eda071ed-6921-45e5-be52-4513fc50efbf/reactions?user_id=user_1765737765743 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58904 - "GET /posts/a8212224-aa90-43c5-8409-8abc70001c10/comments HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58894 - "GET /posts/917932be-488c-4922-973f-cd12b1fee812/reactions?user_id=user_1765737765743 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58908 - "GET /posts/55e6eba4-8748-437f-ad3c-326f17472e3a/reactions?user_id=user_1765737765743 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58916 - "GET /posts/9435ccf6-bcc4-46aa-98ed-5d91c5f18011/comments HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58894 - "GET /posts/57d81ea5-f92c-4038-859e-5a533bbb779c/comments HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58904 - "GET /posts/4f52e583-5ed8-457e-85c7-928c38410463/comments HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58916 - "GET /posts/4af63b29-c412-4945-ab52-957b133aca59/comments HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58908 - "GET /posts/4/reactions?user_id=user_1765737765743 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58904 - "GET /posts/5/reactions?user_id=user_1765737765743 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58894 - "GET /posts/b14f1f0f-7dbc-40c1-ab98-6df13a9b8ff5/reactions?user_id=user_1765737765743 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58916 - "GET /posts/a8212224-aa90-43c5-8409-8abc70001c10/reactions?user_id=user_1765737765743 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58908 - "GET /posts/dcc9bbfc-9fb4-4e86-9079-e62165808f95/comments HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58904 - "GET /posts/1/comments HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58894 - "GET /posts/b245fea0-e341-48f1-a2be-6f96baed4f9c/comments HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58916 - "GET /posts/9435ccf6-bcc4-46aa-98ed-5d91c5f18011/reactions?user_id=user_1765737765743 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58908 - "GET /posts/4f52e583-5ed8-457e-85c7-928c38410463/reactions?user_id=user_1765737765743 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58894 - "GET /posts/54d72552-c673-40b0-9bef-b8d4178a6403/comments HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58904 - "GET /posts/43ba74af-56c5-48e3-aafa-41557da75037/comments HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58916 - "GET /posts/57d81ea5-f92c-4038-859e-5a533bbb779c/reactions?user_id=user_1765737765743 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58908 - "GET /posts/4af63b29-c412-4945-ab52-957b133aca59/reactions?user_id=user_1765737765743 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58894 - "GET /posts/829e675f-a953-43d6-9f33-993bc492219b/comments HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58916 - "GET /posts/dce74587-af67-4026-aff9-f851c6926ca2/comments HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58904 - "GET /posts/dcc9bbfc-9fb4-4e86-9079-e62165808f95/reactions?user_id=user_1765737765743 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58894 - "GET /posts/1d27b343-5485-4c4d-aea3-c8d56640d11b/comments HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58908 - "GET /posts/1/reactions?user_id=user_1765737765743 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58904 - "GET /posts/05ed46c6-0b72-49d0-a99a-894851b8a297/comments HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58916 - "GET /posts/b245fea0-e341-48f1-a2be-6f96baed4f9c/reactions?user_id=user_1765737765743 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58894 - "GET /posts/66e4dcf3-4e82-4e4b-b27a-6430b3ca9b48/comments HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58908 - "GET /posts/6765c31f-3a87-4855-b90f-f3ea0e0c659c/comments HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58904 - "GET /posts/ce81bcbc-9258-4b01-9df4-4f7b923a2ffa/comments HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58916 - "GET /posts/54d72552-c673-40b0-9bef-b8d4178a6403/reactions?user_id=user_1765737765743 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58908 - "GET /posts/829e675f-a953-43d6-9f33-993bc492219b/reactions?user_id=user_1765737765743 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58894 - "GET /posts/43ba74af-56c5-48e3-aafa-41557da75037/reactions?user_id=user_1765737765743 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58904 - "GET /posts/dce74587-af67-4026-aff9-f851c6926ca2/reactions?user_id=user_1765737765743 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58916 - "GET /posts/d657200f-e0eb-4758-a11d-aa77aa31f465/comments HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58894 - "GET /posts/1d27b343-5485-4c4d-aea3-c8d56640d11b/reactions?user_id=user_1765737765743 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58908 - "GET /posts/05ed46c6-0b72-49d0-a99a-894851b8a297/reactions?user_id=user_1765737765743 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58904 - "GET /posts/6765c31f-3a87-4855-b90f-f3ea0e0c659c/reactions?user_id=user_1765737765743 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58916 - "GET /posts/66e4dcf3-4e82-4e4b-b27a-6430b3ca9b48/reactions?user_id=user_1765737765743 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58894 - "GET /posts/3/reactions?user_id=user_1765737765743 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58908 - "GET /posts/7/reactions?user_id=user_1765737765743 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58904 - "GET /posts/d657200f-e0eb-4758-a11d-aa77aa31f465/reactions?user_id=user_1765737765743 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58916 - "GET /posts/ce81bcbc-9258-4b01-9df4-4f7b923a2ffa/reactions?user_id=user_1765737765743 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58908 - "GET /posts/9/reactions?user_id=user_1765737765743 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58894 - "GET /posts/8/reactions?user_id=user_1765737765743 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58916 - "GET /posts/1964d7f5-a177-4ba5-ad69-a854c6ff7f7d/reactions?user_id=user_1765737765743 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58904 - "GET /posts/0c08ef82-be37-4972-8adc-36590631165c/reactions?user_id=user_1765737765743 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58908 - "GET /posts/2/reactions?user_id=user_1765737765743 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58894 - "GET /posts/36aaf502-5de7-4894-937b-7eb56fee62fc/reactions?user_id=user_1765737765743 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58904 - "GET /posts/266d1168-6476-4964-a594-c7aa653f4b1a/reactions?user_id=user_1765737765743 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58916 - "GET /posts/6/reactions?user_id=user_1765737765743 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58894 - "GET /posts/10/reactions?user_id=user_1765737765743 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58908 - "GET /posts/eda071ed-6921-45e5-be52-4513fc50efbf/reactions?user_id=user_1765737765743 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58904 - "GET /posts/917932be-488c-4922-973f-cd12b1fee812/reactions?user_id=user_1765737765743 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58916 - "GET /posts/55e6eba4-8748-437f-ad3c-326f17472e3a/reactions?user_id=user_1765737765743 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58894 - "GET /posts/4/reactions?user_id=user_1765737765743 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58908 - "GET /posts/5/reactions?user_id=user_1765737765743 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58904 - "GET /posts/b14f1f0f-7dbc-40c1-ab98-6df13a9b8ff5/reactions?user_id=user_1765737765743 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58916 - "GET /posts/a8212224-aa90-43c5-8409-8abc70001c10/reactions?user_id=user_1765737765743 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58894 - "GET /posts/1/comments HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58908 - "GET /posts/9435ccf6-bcc4-46aa-98ed-5d91c5f18011/reactions?user_id=user_1765737765743 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58904 - "GET /posts/4f52e583-5ed8-457e-85c7-928c38410463/reactions?user_id=user_1765737765743 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58916 - "GET /posts/57d81ea5-f92c-4038-859e-5a533bbb779c/reactions?user_id=user_1765737765743 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58894 - "GET /posts/4af63b29-c412-4945-ab52-957b133aca59/reactions?user_id=user_1765737765743 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58908 - "GET /posts/dcc9bbfc-9fb4-4e86-9079-e62165808f95/reactions?user_id=user_1765737765743 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58904 - "GET /posts/1/reactions?user_id=user_1765737765743 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58916 - "GET /posts/b245fea0-e341-48f1-a2be-6f96baed4f9c/reactions?user_id=user_1765737765743 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58894 - "GET /posts/54d72552-c673-40b0-9bef-b8d4178a6403/reactions?user_id=user_1765737765743 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58904 - "GET /posts/43ba74af-56c5-48e3-aafa-41557da75037/reactions?user_id=user_1765737765743 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58908 - "GET /posts/829e675f-a953-43d6-9f33-993bc492219b/reactions?user_id=user_1765737765743 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58916 - "GET /posts/dce74587-af67-4026-aff9-f851c6926ca2/reactions?user_id=user_1765737765743 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58894 - "GET /posts/1d27b343-5485-4c4d-aea3-c8d56640d11b/reactions?user_id=user_1765737765743 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58908 - "GET /posts/66e4dcf3-4e82-4e4b-b27a-6430b3ca9b48/reactions?user_id=user_1765737765743 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58904 - "GET /posts/05ed46c6-0b72-49d0-a99a-894851b8a297/reactions?user_id=user_1765737765743 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58916 - "GET /posts/6765c31f-3a87-4855-b90f-f3ea0e0c659c/reactions?user_id=user_1765737765743 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58894 - "GET /posts/ce81bcbc-9258-4b01-9df4-4f7b923a2ffa/reactions?user_id=user_1765737765743 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58904 - "GET /posts/1/reactions?user_id=user_1765737765743 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59890 - "GET /posts/d657200f-e0eb-4758-a11d-aa77aa31f465/reactions?user_id=user_1765737765743 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59892 - "GET /posts/1/comments HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59892 - "GET /posts/1/reactions?user_id=user_1765737765743 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58826 - "GET /feed/user_1765737765743?limit=100 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58826 - "GET /feed/user_1765737765743?limit=100 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58826 - "GET /posts/3/reactions?user_id=user_1765737765743 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58826 - "GET /posts/9/reactions?user_id=user_1765737765743 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58826 - "GET /posts/7/reactions?user_id=user_1765737765743 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58826 - "GET /posts/8/reactions?user_id=user_1765737765743 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58826 - "GET /posts/2/reactions?user_id=user_1765737765743 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58826 - "GET /posts/1964d7f5-a177-4ba5-ad69-a854c6ff7f7d/reactions?user_id=user_1765737765743 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58826 - "GET /posts/0c08ef82-be37-4972-8adc-36590631165c/reactions?user_id=user_1765737765743 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58826 - "GET /posts/36aaf502-5de7-4894-937b-7eb56fee62fc/reactions?user_id=user_1765737765743 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58826 - "GET /posts/6/reactions?user_id=user_1765737765743 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58826 - "GET /posts/266d1168-6476-4964-a594-c7aa653f4b1a/reactions?user_id=user_1765737765743 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58826 - "GET /posts/10/reactions?user_id=user_1765737765743 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58826 - "GET /posts/917932be-488c-4922-973f-cd12b1fee812/reactions?user_id=user_1765737765743 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58826 - "GET /posts/eda071ed-6921-45e5-be52-4513fc50efbf/reactions?user_id=user_1765737765743 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58826 - "GET /posts/55e6eba4-8748-437f-ad3c-326f17472e3a/reactions?user_id=user_1765737765743 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58826 - "GET /posts/4/reactions?user_id=user_1765737765743 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58826 - "GET /posts/a8212224-aa90-43c5-8409-8abc70001c10/reactions?user_id=user_1765737765743 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58826 - "GET /posts/b14f1f0f-7dbc-40c1-ab98-6df13a9b8ff5/reactions?user_id=user_1765737765743 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58826 - "GET /posts/5/reactions?user_id=user_1765737765743 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58826 - "GET /posts/9435ccf6-bcc4-46aa-98ed-5d91c5f18011/reactions?user_id=user_1765737765743 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58826 - "GET /posts/57d81ea5-f92c-4038-859e-5a533bbb779c/reactions?user_id=user_1765737765743 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58826 - "GET /posts/4f52e583-5ed8-457e-85c7-928c38410463/reactions?user_id=user_1765737765743 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58826 - "GET /posts/dcc9bbfc-9fb4-4e86-9079-e62165808f95/reactions?user_id=user_1765737765743 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58826 - "GET /posts/4af63b29-c412-4945-ab52-957b133aca59/reactions?user_id=user_1765737765743 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58826 - "GET /posts/1/reactions?user_id=user_1765737765743 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58826 - "GET /posts/b245fea0-e341-48f1-a2be-6f96baed4f9c/reactions?user_id=user_1765737765743 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58826 - "GET /posts/54d72552-c673-40b0-9bef-b8d4178a6403/reactions?user_id=user_1765737765743 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58826 - "GET /posts/43ba74af-56c5-48e3-aafa-41557da75037/reactions?user_id=user_1765737765743 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58826 - "GET /posts/829e675f-a953-43d6-9f33-993bc492219b/reactions?user_id=user_1765737765743 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58826 - "GET /posts/dce74587-af67-4026-aff9-f851c6926ca2/reactions?user_id=user_1765737765743 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58826 - "GET /posts/1d27b343-5485-4c4d-aea3-c8d56640d11b/reactions?user_id=user_1765737765743 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58826 - "GET /posts/05ed46c6-0b72-49d0-a99a-894851b8a297/reactions?user_id=user_1765737765743 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58826 - "GET /posts/6765c31f-3a87-4855-b90f-f3ea0e0c659c/reactions?user_id=user_1765737765743 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58826 - "GET /posts/66e4dcf3-4e82-4e4b-b27a-6430b3ca9b48/reactions?user_id=user_1765737765743 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58826 - "GET /posts/ce81bcbc-9258-4b01-9df4-4f7b923a2ffa/reactions?user_id=user_1765737765743 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58826 - "GET /posts/d657200f-e0eb-4758-a11d-aa77aa31f465/reactions?user_id=user_1765737765743 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58826 - "GET /posts/3/reactions?user_id=user_1765737765743 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58826 - "GET /posts/9/reactions?user_id=user_1765737765743 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58826 - "GET /posts/7/reactions?user_id=user_1765737765743 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58826 - "GET /posts/8/reactions?user_id=user_1765737765743 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58826 - "GET /posts/2/reactions?user_id=user_1765737765743 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58826 - "GET /posts/1964d7f5-a177-4ba5-ad69-a854c6ff7f7d/reactions?user_id=user_1765737765743 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58826 - "GET /posts/0c08ef82-be37-4972-8adc-36590631165c/reactions?user_id=user_1765737765743 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58826 - "GET /posts/36aaf502-5de7-4894-937b-7eb56fee62fc/reactions?user_id=user_1765737765743 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58826 - "GET /posts/6/reactions?user_id=user_1765737765743 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58826 - "GET /posts/266d1168-6476-4964-a594-c7aa653f4b1a/reactions?user_id=user_1765737765743 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58826 - "GET /posts/10/reactions?user_id=user_1765737765743 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58826 - "GET /posts/917932be-488c-4922-973f-cd12b1fee812/reactions?user_id=user_1765737765743 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58826 - "GET /posts/eda071ed-6921-45e5-be52-4513fc50efbf/reactions?user_id=user_1765737765743 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58826 - "GET /posts/55e6eba4-8748-437f-ad3c-326f17472e3a/reactions?user_id=user_1765737765743 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58826 - "GET /posts/4/reactions?user_id=user_1765737765743 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58826 - "GET /posts/a8212224-aa90-43c5-8409-8abc70001c10/reactions?user_id=user_1765737765743 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58826 - "GET /posts/b14f1f0f-7dbc-40c1-ab98-6df13a9b8ff5/reactions?user_id=user_1765737765743 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58826 - "GET /posts/5/reactions?user_id=user_1765737765743 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58826 - "GET /posts/9435ccf6-bcc4-46aa-98ed-5d91c5f18011/reactions?user_id=user_1765737765743 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58830 - "GET /posts/57d81ea5-f92c-4038-859e-5a533bbb779c/reactions?user_id=user_1765737765743 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58826 - "GET /posts/4f52e583-5ed8-457e-85c7-928c38410463/reactions?user_id=user_1765737765743 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58830 - "GET /posts/dcc9bbfc-9fb4-4e86-9079-e62165808f95/reactions?user_id=user_1765737765743 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58826 - "GET /posts/4af63b29-c412-4945-ab52-957b133aca59/reactions?user_id=user_1765737765743 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58826 - "GET /posts/b245fea0-e341-48f1-a2be-6f96baed4f9c/reactions?user_id=user_1765737765743 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58830 - "GET /posts/1/reactions?user_id=user_1765737765743 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58826 - "GET /posts/54d72552-c673-40b0-9bef-b8d4178a6403/reactions?user_id=user_1765737765743 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58830 - "GET /posts/43ba74af-56c5-48e3-aafa-41557da75037/reactions?user_id=user_1765737765743 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58830 - "GET /posts/829e675f-a953-43d6-9f33-993bc492219b/reactions?user_id=user_1765737765743 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58826 - "GET /posts/dce74587-af67-4026-aff9-f851c6926ca2/reactions?user_id=user_1765737765743 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58830 - "GET /posts/1d27b343-5485-4c4d-aea3-c8d56640d11b/reactions?user_id=user_1765737765743 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58826 - "GET /posts/05ed46c6-0b72-49d0-a99a-894851b8a297/reactions?user_id=user_1765737765743 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58830 - "GET /posts/6765c31f-3a87-4855-b90f-f3ea0e0c659c/reactions?user_id=user_1765737765743 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58826 - "GET /posts/66e4dcf3-4e82-4e4b-b27a-6430b3ca9b48/reactions?user_id=user_1765737765743 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58830 - "GET /posts/ce81bcbc-9258-4b01-9df4-4f7b923a2ffa/reactions?user_id=user_1765737765743 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58826 - "GET /posts/d657200f-e0eb-4758-a11d-aa77aa31f465/reactions?user_id=user_1765737765743 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58830 - "GET /posts/1/reactions?user_id=user_1765737765743 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58826 - "GET /posts/1/reactions?user_id=user_1765737765743 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58826 - "OPTIONS /posts/react HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58826 - "POST /posts/react HTTP/1.1" 422 Unprocessable Entity
+INFO:     127.0.0.1:58826 - "POST /posts/react HTTP/1.1" 422 Unprocessable Entity
+INFO:     127.0.0.1:58840 - "POST /posts/react HTTP/1.1" 422 Unprocessable Entity
+INFO:     127.0.0.1:58840 - "POST /posts/react HTTP/1.1" 422 Unprocessable Entity
+INFO:     127.0.0.1:58840 - "POST /posts/react HTTP/1.1" 422 Unprocessable Entity
+INFO:     127.0.0.1:58840 - "POST /posts/react HTTP/1.1" 422 Unprocessable Entity
+INFO:     127.0.0.1:58840 - "POST /posts/react HTTP/1.1" 422 Unprocessable Entity
+INFO:     127.0.0.1:54456 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54946 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49908 - "GET /feed/user_1765741138850 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49922 - "GET /feed/user_1765741138850 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56228 - "GET /feed/user_1765741138850?limit=100 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56232 - "GET /feed/user_1765741138850?limit=100 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56238 - "GET /media/05ed46c6-0b72-49d0-a99a-894851b8a297.jpg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56254 - "GET /media/6765c31f-3a87-4855-b90f-f3ea0e0c659c.jpg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56256 - "GET /media/66e4dcf3-4e82-4e4b-b27a-6430b3ca9b48.jpg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56272 - "GET /media/ce81bcbc-9258-4b01-9df4-4f7b923a2ffa.jpg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56280 - "GET /media/d657200f-e0eb-4758-a11d-aa77aa31f465.jpg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56232 - "GET /feed/user_1765741138850?limit=100 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56232 - "GET /feed/user_1765741138850?limit=100 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56232 - "GET /feed/user_1765741138850?limit=100 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56232 - "GET /feed/user_1765741138850?limit=100 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56232 - "GET /feed/user_1765741138850?limit=100 HTTP/1.1" 200 OK
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:05<00:00,  5.10s/it]Batches: 100%|██████████| 1/1 [00:05<00:00,  5.12s/it]
+INFO:     127.0.0.1:38088 - "POST /recommend HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44116 - "POST /recommend HTTP/1.1" 200 OK
+INFO:     127.0.0.1:35990 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52646 - "GET /feed/user_1765741138850 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52658 - "GET /feed/user_1765741138850 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47378 - "GET /feed/user_1765741138850?limit=100 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47388 - "GET /feed/user_1765741138850?limit=100 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47398 - "GET /media/d657200f-e0eb-4758-a11d-aa77aa31f465.jpg HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:55222 - "OPTIONS /recommend HTTP/1.1" 200 OK
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  1.04it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  1.04it/s]
+INFO:     127.0.0.1:55222 - "POST /recommend HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55222 - "POST /recommend HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55222 - "POST /recommend HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50822 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56580 - "POST /recommend HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59008 - "GET /feed/user_1765742165400 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:59012 - "GET /feed/user_1765742165400 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53728 - "GET /feed/user_1765741138850 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53740 - "GET /feed/user_1765741138850 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52098 - "POST /recommend HTTP/1.1" 200 OK
+INFO:     127.0.0.1:52098 - "POST /recommend HTTP/1.1" 200 OK
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  1.42it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  1.42it/s]
+INFO:     127.0.0.1:52102 - "POST /recommend HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44978 - "GET /feed/user_1765741138850?limit=100 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44978 - "GET /feed/user_1765741138850?limit=100 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44978 - "GET /feed/user_1765741138850 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44994 - "GET /feed/user_1765741138850 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45000 - "GET /feed/user_1765741138850 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45000 - "GET /feed/user_1765741138850 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45016 - "GET /feed/user_1765741138850?limit=100 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45016 - "GET /feed/user_1765741138850?limit=100 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45016 - "GET /feed/user_1765741138850 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60652 - "GET /feed/user_1765741138850 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49984 - "GET /feed/user_1765741138850 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49988 - "GET /feed/user_1765741138850 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45864 - "GET /feed/user_1765741138850 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45878 - "GET /feed/user_1765741138850 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45878 - "GET /feed/user_1765741138850 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45864 - "GET /feed/user_1765741138850 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45864 - "GET /feed/user_1765741138850 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45864 - "GET /feed/user_1765741138850 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45864 - "GET /feed/user_1765741138850 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45864 - "GET /feed/user_1765741138850 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45864 - "GET /feed/user_1765741138850 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45864 - "GET /feed/user_1765741138850 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45864 - "GET /feed/user_1765741138850 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45864 - "GET /feed/user_1765741138850 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45864 - "GET /feed/user_1765741138850 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45864 - "GET /feed/user_1765741138850 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45864 - "GET /feed/user_1765741138850 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45864 - "GET /feed/user_1765741138850 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45864 - "GET /feed/user_1765741138850 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45864 - "GET /feed/user_1765741138850 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45864 - "GET /feed/user_1765741138850 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45864 - "GET /feed/user_1765741138850 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45864 - "GET /feed/user_1765741138850 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45864 - "GET /feed/user_1765741138850 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45864 - "GET /feed/user_1765741138850 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:45864 - "GET /feed/user_1765741138850 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51236 - "GET /feed/user_1765741138850 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51236 - "GET /feed/user_1765741138850 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51236 - "GET /feed/user_1765741138850 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51236 - "GET /feed/user_1765741138850 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51236 - "GET /feed/user_1765741138850 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51236 - "GET /feed/user_1765741138850 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51236 - "GET /feed/user_1765741138850 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51236 - "GET /feed/user_1765741138850 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51236 - "GET /feed/user_1765741138850 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51236 - "GET /feed/user_1765741138850 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40594 - "GET /feed/user_1765741138850 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40594 - "GET /feed/user_1765741138850 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51236 - "GET /feed/user_1765741138850 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51236 - "GET /feed/user_1765741138850 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51236 - "GET /feed/user_1765741138850 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51236 - "GET /feed/user_1765741138850 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51236 - "GET /feed/user_1765741138850 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51236 - "GET /feed/user_1765741138850 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51236 - "GET /feed/user_1765741138850 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51236 - "GET /feed/user_1765741138850 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51236 - "GET /feed/user_1765741138850 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51236 - "GET /feed/user_1765741138850?limit=100 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:51236 - "GET /feed/user_1765741138850?limit=100 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47000 - "GET /media/d657200f-e0eb-4758-a11d-aa77aa31f465.jpg HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:51236 - "GET /feed/user_1765741138850 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46998 - "GET /feed/user_1765741138850 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46998 - "GET /feed/user_1765741138850 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:46998 - "POST /recommend HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36086 - "GET /feed/user_1765741138850 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36086 - "GET /feed/user_1765741138850 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36086 - "GET /feed/user_1765741138850 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36086 - "GET /feed/user_1765741138850 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36086 - "GET /feed/user_1765741138850 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36086 - "GET /feed/user_1765741138850 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47564 - "GET /feed/user_1765741138850 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47574 - "GET /feed/user_1765741138850 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47574 - "GET /feed/user_1765741138850 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47574 - "GET /feed/user_1765741138850 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47574 - "GET /feed/user_1765741138850 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47574 - "GET /feed/user_1765741138850 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47574 - "GET /feed/user_1765741138850 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47574 - "GET /feed/user_1765741138850 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47574 - "GET /feed/user_1765741138850 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47574 - "GET /feed/user_1765741138850 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:47574 - "GET /feed/user_1765741138850 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43222 - "POST /recommend HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40166 - "GET /feed/user_1765741138850 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40166 - "GET /feed/user_1765741138850 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40166 - "GET /feed/user_1765741138850 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40166 - "GET /feed/user_1765741138850 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40166 - "GET /feed/user_1765741138850 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40166 - "GET /feed/user_1765741138850 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40166 - "GET /feed/user_1765741138850 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40166 - "GET /feed/user_1765741138850 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40166 - "GET /feed/user_1765741138850 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40166 - "GET /feed/user_1765741138850 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40166 - "GET /feed/user_1765741138850 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40166 - "GET /feed/user_1765741138850 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40166 - "GET /feed/user_1765741138850 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40166 - "GET /feed/user_1765741138850 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40166 - "GET /feed/user_1765741138850 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40166 - "GET /feed/user_1765741138850 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40166 - "GET /feed/user_1765741138850 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40166 - "GET /feed/user_1765741138850 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40166 - "GET /feed/user_1765741138850 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40166 - "GET /feed/user_1765741138850 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40166 - "GET /feed/user_1765741138850 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40166 - "GET /feed/user_1765741138850 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40166 - "GET /feed/user_1765741138850 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40166 - "GET /feed/user_1765741138850 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40166 - "GET /feed/user_1765741138850 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40166 - "GET /feed/user_1765741138850 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40166 - "GET /feed/user_1765741138850 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40166 - "GET /feed/user_1765741138850 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40166 - "GET /feed/user_1765741138850 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40166 - "GET /feed/user_1765741138850 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40166 - "GET /feed/user_1765741138850 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40166 - "GET /feed/user_1765741138850 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40166 - "GET /feed/user_1765741138850 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40166 - "GET /feed/user_1765741138850 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40166 - "GET /feed/user_1765741138850 HTTP/1.1" 200 OK
+WARNING:  WatchFiles detected changes in 'seed_database.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [7294]
+WARNING:  WatchFiles detected changes in 'seed_database.py'. Reloading...
+INFO:sentence_transformers.SentenceTransformer:Use pytorch device_name: cpu
+INFO:sentence_transformers.SentenceTransformer:Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+INFO:app.embeddings:Loaded embedding model: all-MiniLM-L6-v2
+INFO:app.recommender:Loaded FAISS index from faiss_index/index.bin
+INFO:app.recommender:Loaded metadata from faiss_index/metadata.pkl
+INFO:app.redis_cache:Connected to Redis
+INFO:     Started server process [13968]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:sentence_transformers.SentenceTransformer:Use pytorch device_name: cpu
+INFO:sentence_transformers.SentenceTransformer:Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+INFO:app.embeddings:Loaded embedding model: all-MiniLM-L6-v2
+INFO:app.recommender:Loaded FAISS index from faiss_index/index.bin
+INFO:app.recommender:Loaded metadata from faiss_index/metadata.pkl
+INFO:app.redis_cache:Connected to Redis
+INFO:     Started server process [14100]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     127.0.0.1:36270 - "GET /feed/user_1765741138850 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:32828 - "GET /feed/user_1765741138850 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56674 - "GET /feed/user_1765741138850?limit=100 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:32828 - "GET /feed/user_1765741138850 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41248 - "GET /feed/user_1765741138850 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56674 - "GET /feed/user_1765741138850 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41264 - "GET /feed/user_1765741138850 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:32828 - "GET /feed/user_1765741138850 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41248 - "GET /feed/user_1765741138850 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57192 - "GET /feed/user_1765741138850 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56674 - "GET /feed/user_1765741138850 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41264 - "GET /feed/user_1765741138850?limit=100 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41248 - "GET /feed/user_1765741138850 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56674 - "GET /feed/user_1765741138850 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41248 - "GET /feed/user_1765741138850 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56674 - "GET /feed/user_1765741138850 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:41248 - "GET /feed/user_1765741138850 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56674 - "GET /feed/user_1765741138850 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38938 - "GET /feed/user_1765741138850 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:38938 - "GET /feed/user_1765741138850 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43476 - "GET /feed/user_1765741138850 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:43476 - "GET /feed/user_1765741138850 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37610 - "GET /feed/user_1765741138850 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37610 - "GET /feed/user_1765741138850 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37610 - "GET /feed/user_1765741138850 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57572 - "GET /feed/user_1765741138850 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57572 - "GET /feed/user_1765741138850 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57572 - "GET /feed/user_1765741138850 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57572 - "GET /feed/user_1765741138850?limit=100 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57572 - "GET /feed/user_1765741138850?limit=100 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57988 - "GET /media/d657200f-e0eb-4758-a11d-aa77aa31f465.jpg HTTP/1.1" 304 Not Modified
+INFO:     127.0.0.1:57572 - "GET /feed/user_1765741138850?limit=100 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57972 - "GET /feed/user_1765741138850?limit=100 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:58560 - "OPTIONS /recommend HTTP/1.1" 200 OK
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:01<00:00,  1.31s/it]Batches: 100%|██████████| 1/1 [00:01<00:00,  1.31s/it]
+INFO:     127.0.0.1:58560 - "POST /recommend HTTP/1.1" 200 OK
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  4.41it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  4.41it/s]
+INFO:     127.0.0.1:58572 - "POST /recommend HTTP/1.1" 200 OK
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  3.31it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  3.23it/s]
+INFO:     127.0.0.1:58588 - "POST /recommend HTTP/1.1" 200 OK
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 16.29it/s]
+INFO:     127.0.0.1:54850 - "POST /recommend HTTP/1.1" 200 OK
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  9.34it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  9.31it/s]
+INFO:     127.0.0.1:54866 - "POST /recommend HTTP/1.1" 200 OK
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  7.99it/s]Batches: 100%|██████████| 1/1 [00:00<00:00,  7.95it/s]
+INFO:     127.0.0.1:59152 - "POST /recommend HTTP/1.1" 200 OK
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 29.32it/s]
+INFO:     127.0.0.1:59152 - "POST /recommend HTTP/1.1" 200 OK
+Batches:   0%|          | 0/1 [00:00<?, ?it/s]Batches: 100%|██████████| 1/1 [00:00<00:00, 20.59it/s]
+INFO:     127.0.0.1:59160 - "POST /recommend HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53344 - "POST /recommend HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53358 - "GET /feed/user_1765741138850 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53358 - "GET /feed/user_1765741138850 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40958 - "GET /feed/user_1765741138850 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:40970 - "GET /feed/user_1765741138850 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57732 - "GET /feed/user_1765741138850 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57740 - "GET /feed/user_1765741138850 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57740 - "GET /feed/user_1765741138850 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57732 - "GET /feed/user_1765741138850 HTTP/1.1" 200 OK

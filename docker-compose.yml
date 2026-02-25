@@ -1,0 +1,82 @@
+version: '3.8'
+
+services:
+  # PostgreSQL Database
+  postgres:
+    image: postgres:15
+    container_name: social_recommender_db
+    environment:
+      POSTGRES_USER: recommender
+      POSTGRES_PASSWORD: strongpassword
+      POSTGRES_DB: recsys
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U recommender"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  # Redis Cache
+  redis:
+    image: redis:7-alpine
+    container_name: social_recommender_cache
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis_data:/data
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    command: redis-server --appendonly yes
+
+  # Backend API
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    container_name: social_recommender_api
+    environment:
+      DATABASE_URL: postgresql://recommender:strongpassword@postgres:5432/recsys
+      REDIS_URL: redis://redis:6379
+      DEBUG: "False"
+      EMBEDDING_MODEL: all-MiniLM-L6-v2
+    ports:
+      - "8000:8000"
+    depends_on:
+      postgres:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+    volumes:
+      - ./backend:/app
+      - faiss_data:/app/faiss_index
+    command: uvicorn app.main:app --host 0.0.0.0 --port 8000
+
+  # Frontend (Optional)
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    container_name: social_recommender_ui
+    ports:
+      - "5173:5173"
+    environment:
+      VITE_API_URL: http://localhost:8000
+    depends_on:
+      - backend
+    volumes:
+      - ./frontend/src:/app/src
+
+volumes:
+  postgres_data:
+  redis_data:
+  faiss_data:
+
+networks:
+  default:
+    name: social_recommender_network
